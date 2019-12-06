@@ -13,8 +13,7 @@ public class Day1Test {
     @DisplayName("Fuel calculator for given data")
     @CsvSource({"12,2.0", "14,2.0", "1969,654.0", "100756,33583.0"})
     public void shouldCalculateFuel(long input, double expected) {
-        FuelCalculator fuelCalculator = new FuelCalculator();
-        double actual = fuelCalculator.calculate(input);
+        double actual = FuelCalculator.calculateForCompartiment(input);
         assertEquals(expected, actual);
     }
 }
