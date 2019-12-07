@@ -10,7 +10,7 @@ public class MultiplicationInstruction extends Instruction {
     public int execute(int code, int parameter1, int parameter2) {
         return (code == MULTIPLICATION_OPERATION)?
             parameter1 * parameter2 : 
-            getNext().execute(code, parameter1, parameter2) ;
+            null ;
     }
     
 }

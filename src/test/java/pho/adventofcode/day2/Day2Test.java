@@ -17,6 +17,8 @@ class Day2Test {
 
     private static int[] TAPE_4 = {1, 9, 10, 3, 2, 3, 11, 0, 99, 30, 40, 50};
 
+    private static int[] TAPE_5 = {1, 0, 0, 3, 99};
+
     @Test
     @DisplayName("Addition test") 
     public void additionTest() {
@@ -46,6 +48,14 @@ class Day2Test {
     public void anotherExampleProgramTest() {
         int[] actual = TapeInterpreter.interpret(TAPE_4);
         int[] expected = {3500, 9, 10, 70, 2, 3, 11, 0, 99, 30, 40, 50};
+        assertArrayEquals(expected, actual);
+    }
+
+    @Test
+    @DisplayName("Yet another example program test") 
+    public void yetAnotherExampleProgramTest() {
+        int[] actual = TapeInterpreter.interpret(TAPE_5);
+        int[] expected = {1, 0, 0, 2, 99};
         assertArrayEquals(expected, actual);
     }
 }

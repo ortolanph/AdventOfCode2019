@@ -27,5 +27,13 @@ Where
 
 | Day | Part 1 | Part 2 |
 |:---:|:------:|:------:|
-|  1  | OK | OK |
-|  2  | Doing | To be done |
+|  1  | `OK` | `OK` |
+|  2  | `OK` | `WIP` |
+|  3  | `NS` | `NS` |
+
+Legend:
+
+- `OK` - Ok, that's right
+- `NOK` - Not Ok, some problem ocurred 
+- `WIP` - Work In Progress 
+- `NS` - Not started
