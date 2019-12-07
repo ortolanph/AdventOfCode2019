@@ -9,7 +9,7 @@ import pho.adventofcode.fuel.SimpleFuelCalculator;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class Day1Test {
+class Day1Test {
 
     @ParameterizedTest
     @DisplayName("Fuel calculator for given data")

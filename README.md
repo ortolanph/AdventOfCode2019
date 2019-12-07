@@ -2,7 +2,7 @@
 
 Please, refer to the main site: https://adventofcode.com/2019
 
-# Compile
+## Compile
 
 Use the command:
 
@@ -10,7 +10,7 @@ Use the command:
 make compile
 ```
 
-# Run
+## Run
 
 Use the command:
 
@@ -22,3 +22,10 @@ Where
  - `DAY` is the number of the day
  - `PART` is the part of the challenge (1, 2)
  - `INPUT` is your input files
+
+## Challenges completed
+
+| Day | Part 1 | Part 2 |
+|:---:|:------:|:------:|
+|  1  | OK | OK |
+|  2  | Doing | To be done |
