@@ -1,11 +1,13 @@
 package pho.adventofcode.tape;
 
-import pho.adventofcode.tape.instructions.AdditionInstruction;
-import pho.adventofcode.tape.instructions.MultiplicationInstruction;
+import pho.adventofcode.tape.instructionset.instructions.AdditionInstruction;
+import pho.adventofcode.tape.instructionset.instructions.MultiplicationInstruction;
+import pho.adventofcode.tape.instructionset.Instruction;
 
 public final class InstructionChainCreator {
 
-    private InstructionChainCreator() {}
+    private InstructionChainCreator() {
+    }
 
     public static Instruction chain() {
         Instruction instruction = new AdditionInstruction();

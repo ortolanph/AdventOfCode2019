@@ -3,7 +3,6 @@ package pho.adventofcode.day1;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvSource;
-
 import pho.adventofcode.fuel.MassFuelCalculator;
 import pho.adventofcode.fuel.SimpleFuelCalculator;
 

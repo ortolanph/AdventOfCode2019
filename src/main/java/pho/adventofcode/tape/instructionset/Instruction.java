@@ -1,4 +1,4 @@
-package pho.adventofcode.tape;
+package pho.adventofcode.tape.instructionset;
 
 public abstract class Instruction {
 

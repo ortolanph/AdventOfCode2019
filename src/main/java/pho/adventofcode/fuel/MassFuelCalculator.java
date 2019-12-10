@@ -8,14 +8,14 @@ public class MassFuelCalculator implements ToDoubleFunction<Long> {
 
     @Override
     public double applyAsDouble(Long fuel) {
-        return calculateMassForRemainingFuel(0.0, (double)fuel);
+        return calculateMassForRemainingFuel(0.0, (double) fuel);
     }
 
     private double calculateMassForRemainingFuel(double accumulator, double remainingFuel) {
-        remainingFuel = simpleFuelCalculator.applyAsDouble((long)remainingFuel);
-        accumulator += (remainingFuel > 0)? remainingFuel : 0.0;
-        
-        return (remainingFuel > 2)? calculateMassForRemainingFuel(accumulator, remainingFuel) : accumulator;
+        remainingFuel = simpleFuelCalculator.applyAsDouble((long) remainingFuel);
+        accumulator += (remainingFuel > 0) ? remainingFuel : 0.0;
+
+        return (remainingFuel > 2) ? calculateMassForRemainingFuel(accumulator, remainingFuel) : accumulator;
     }
 
 }
